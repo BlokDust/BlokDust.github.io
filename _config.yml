@@ -1,1 +1,2 @@
-source: ./_book
+include: [_book/]
+source: _book/
