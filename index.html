@@ -34,7 +34,7 @@
     <body>
         
         
-    <div class="book" data-level="0" data-basepath="." data-revision="Tue Sep 15 2015 14:18:39 GMT+0100 (GMT Summer Time)">
+    <div class="book" data-level="0" data-basepath="." data-revision="Tue Sep 15 2015 14:30:15 GMT+0100 (GMT Summer Time)">
     
 
 <div class="book-summary">
@@ -265,11 +265,15 @@
 </code></pre><p>to build to <code>_book</code></p>
 <p>run</p>
 <pre><code>gulp deploy
-</code></pre><p>to deploy the contents of <code>_book</code> to the <code>master</code> branch</p>
+</code></pre><p>to deploy the contents of <code>_book</code> on the default <code>book</code> branch to the remote <code>master</code> branch.</p>
 <h2 id="notes">Notes</h2>
-<p>The <code>book</code> branch must be your repo&apos;s default  branch.</p>
-<p>If you get an <code>Updates were rejected</code> error when running <code>gulp deploy</code>, delete the remote master branch and push again.</p>
-
+<p>If you get an <code>Updates were rejected</code> error when running <code>gulp deploy</code>, delete the remote <code>master</code> branch and push again.</p>
+<p>The <code>master</code> branch is purely for the deployed book files. Delete the local and remote <code>master</code> before running <code>gulp deploy</code> if you have problems.</p>
+<p>To delete locally:</p>
+<pre><code>git branch -d master
+</code></pre><p>To delete remotely:</p>
+<pre><code>git push origin :master
+</code></pre>
                     
                     </section>
                 
