@@ -5,9 +5,9 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Introduction | blokdust.github.io</title>
+        <title>synths | blokdust.github.io</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Hi!">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 2.2.0">
         
         
@@ -15,18 +15,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
     
     
 
         
     
     
-    <link rel="next" href="./introduction/index.html" />
     
+    <link rel="prev" href="../introduction/blocks.html" />
     
 
         
@@ -34,7 +34,7 @@
     <body>
         
         
-    <div class="book" data-level="0" data-basepath="." data-revision="Sun Dec 13 2015 16:40:54 GMT+0000 (GMT Standard Time)">
+    <div class="book" data-level="1.3" data-basepath=".." data-revision="Sun Dec 13 2015 16:40:54 GMT+0000 (GMT Standard Time)">
     
 
 <div class="book-summary">
@@ -51,10 +51,10 @@
 
         
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
-                    <a href="./index.html">
+                    <a href="../index.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -67,7 +67,7 @@
         <li class="chapter " data-level="1" data-path="introduction/index.html">
             
                 
-                    <a href="./introduction/index.html">
+                    <a href="../introduction/index.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -83,7 +83,7 @@
         <li class="chapter " data-level="1.1" data-path="introduction/about.html">
             
                 
-                    <a href="./introduction/about.html">
+                    <a href="../introduction/about.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -98,7 +98,7 @@
         <li class="chapter " data-level="1.2" data-path="introduction/blocks.html">
             
                 
-                    <a href="./introduction/blocks.html">
+                    <a href="../introduction/blocks.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -110,10 +110,10 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="introduction/synths.html">
+        <li class="chapter active" data-level="1.3" data-path="introduction/synths.html">
             
                 
-                    <a href="./introduction/synths.html">
+                    <a href="../introduction/synths.html">
                 
                         <i class="fa fa-check"></i>
                         
@@ -150,7 +150,7 @@
     <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
     
-    <a href="./GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
+    <a href="../GLOSSARY.html" class="btn pull-left" aria-label="Glossary"><i class="fa fa-sort-alpha-asc"></i></a>
     
     <div id="font-settings-wrapper" class="dropdown pull-left">
         <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
@@ -227,7 +227,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="./" >blokdust.github.io</a>
+        <a href="../" >blokdust.github.io</a>
     </h1>
 </div>
 
@@ -237,8 +237,22 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="blokdust-github-io">blokdust.github.io</h1>
-<p>Hi!</p>
+                        <h1 id="synths">Synths</h1>
+<p>Synthesizers are electronic music instruments which play a fundamental role in sound creation within BlokDust.</p>
+<p>[tone block]</p>
+<p>Several of the blocks in BlokDust lend themselves to creating simple playable synths. One of the most common techniques in <a href="../GLOSSARY.html#synth" class="glossary-term" title="...">synth</a> creation is called subtractive synthesis, and uses oscillators, filters, envelopes and modulation.</p>
+<p>In BlokDust the Tone <a href="../GLOSSARY.html#source" class="glossary-term" title="A source block generates sound that can be modified by effects.">Source</a> block is a basic oscillator, it generates a sound at a constant frequency, and the shape of the sound&#x2019;s waveform can be selected from: square, sine, triangle and sawtooth. The waveform affects the timbre of the sound, sine being the softest sounding, and sawtooth &amp; square being more aggressive.</p>
+<p>Connecting a Tone block to an <a href="../GLOSSARY.html#interaction" class="glossary-term" title="...">Interaction</a> block is the simplest way of creating a playable <a href="../GLOSSARY.html#synth" class="glossary-term" title="...">synth</a>. <a href="../GLOSSARY.html#synth" class="glossary-term" title="...">Synth</a> drones can be created by connecting the Tone to a <a href="../GLOSSARY.html#power" class="glossary-term" title="Power blocks...">Power</a> block or active Switch block. Individual notes or pads can be created by firing particles at or rotating laser beams through the Tone block.</p>
+<p>More interesting <a href="../GLOSSARY.html#synth" class="glossary-term" title="...">synth</a> sounds are created when combined with filters (Filter, EQ, Autowah) which further affect the timbre, modulation (LFO, Chopper, Chomp, Chorus, Phaser) which affect aspects of the sound over time, and Envelopes, which affect the shape of the sound, ie how quickly a note fades in or out.</p>
+<p>Combining multiple oscillators (Tone blocks) of different waveform types, harmonies or octaves adds further interest, and a more dense sound can be achieved by using two oscillators of the same type, but slightly detuning one of them to create a pulsing/chorus sound.</p>
+<p>The Granular block uses a different technique to subtractive. Granular Synthesis relies on an audio sample which is then sliced into tiny pieces. These short &#x2018;grains&#x2019; of audio are played back layered on top of each other, useful for creating a range of effects from dense soundscapes, to unique &#x2018;bubbling&#x2019; sounds.</p>
+<h2 id="links-reference">Links/Reference</h2>
+<p><a href="http://blokdust.com" target="_blank">http://blokdust.com</a>
+<a href="https://en.wikipedia.org/wiki/Synthesizer" target="_blank">https://en.wikipedia.org/wiki/Synthesizer</a>
+<a href="https://en.wikipedia.org/wiki/Subtractive_synthesis" target="_blank">https://en.wikipedia.org/wiki/Subtractive_synthesis</a>
+<a href="https://en.wikipedia.org/wiki/Granular_synthesis" target="_blank">https://en.wikipedia.org/wiki/Granular_synthesis</a>
+<a href="http://webaudio.github.io/web-audio-api/" target="_blank">http://webaudio.github.io/web-audio-api/</a>
+<a href="http://music.columbia.edu/cmc/MusicAndComputers/chapter1/01_04.php" target="_blank">http://music.columbia.edu/cmc/MusicAndComputers/chapter1/01_04.php</a></p>
 
                     
                     </section>
@@ -249,14 +263,14 @@
         </div>
 
         
+        <a href="../introduction/blocks.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: blocks"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./introduction/index.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Introduction"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-<script src="gitbook/app.js"></script>
+<script src="../gitbook/app.js"></script>
 
 <script>
 require(["gitbook"], function(gitbook) {
