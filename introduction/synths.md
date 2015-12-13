@@ -19,8 +19,13 @@ The Granular block uses a different technique to subtractive. Granular Synthesis
 ##Links/Reference
 
 http://blokdust.com
+
 https://en.wikipedia.org/wiki/Synthesizer
+
 https://en.wikipedia.org/wiki/Subtractive_synthesis
+
 https://en.wikipedia.org/wiki/Granular_synthesis
+
 http://webaudio.github.io/web-audio-api/
+
 http://music.columbia.edu/cmc/MusicAndComputers/chapter1/01_04.php

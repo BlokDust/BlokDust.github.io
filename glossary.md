@@ -1,10 +1,10 @@
-#source
+#source block
 A source block generates sound that can be modified by effects.
 
-#effect
+#effect block
 Effect blocks modify the output of source blocks.
 
-#power
+#power block
 Power blocks...
 
 #interaction
@@ -13,5 +13,5 @@ Power blocks...
 #connection
 ...
 
-#synth
+#synth block
 ...
