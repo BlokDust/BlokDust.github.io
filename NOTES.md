@@ -12,11 +12,11 @@ run
 	
 to build to `_book`
 
-run
+commit the generated files to the default `book` branch then run:
 
 	gulp deploy
 	
-to deploy the contents of `_book` on the default `book` branch to the remote `master` branch.
+to deploy the contents of `_book` to the remote `master` branch.
 
 ## Notes
 
