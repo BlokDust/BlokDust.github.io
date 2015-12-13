@@ -12,7 +12,7 @@ run
 	
 to build to `_book`
 
-run
+commit the generated files to the git repo then run:
 
 	gulp deploy
 	
