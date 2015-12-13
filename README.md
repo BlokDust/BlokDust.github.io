@@ -1,3 +1,3 @@
-# blokdust.github.io
+# blokdust
 
-Hi!
+This is a guide to http://blokdust.com
